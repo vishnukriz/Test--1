@@ -1,0 +1,21 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "cypress works",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "vishnuvardhini",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
