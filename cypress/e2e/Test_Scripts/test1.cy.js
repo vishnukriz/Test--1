@@ -12,6 +12,8 @@ describe("Testing_Scenarios", ()=>{
         cy.get('@idname').type(Cypress.env('user'));
         cy.get('#password').type(Cypress.env('pwd'));
         cy.get('#submit').click();
+        cy.contains('Congratulations student. You successfully logged in!').should('exist')
+        cy.contains('Log out').click();
        
         
 
