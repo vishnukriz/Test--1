@@ -14,13 +14,8 @@ describe("Testing_Scenarios", ()=>{
         cy.get('#submit').click();
         cy.contains('Congratulations student. You successfully logged in!').should('exist')
         cy.contains('Log out').click();
-       
-        
-
-
-
-
     })
+
 
 
 
